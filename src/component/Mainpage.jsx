@@ -26,6 +26,7 @@ import bybit from "../assets/bybitLogo.jpg";
 import okx from "../assets/okxLogo.webp";
 import kucoin from "../assets/kucoinLogo.png";
 import bitget from "../assets/bitgetLogo.png";
+import unKnown from "../assets/unknown.jfif";
 import giftFriend from "../assets/giftFriend.png";
 import premiumFriend from "../assets/premiumFriendGift.png";
 import hamsIcon from "../assets/hamsIcon.png";
@@ -1933,17 +1934,28 @@ const Mainpage = () => {
 
               <div className="combo-card-price">
                 <div>Daily combo</div>
-                <div className="d-flex">
+                <div className="dot-win">
                   <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <div className="combo-price d-flex justify-content-center align-items-center gap-1">
+                  <div><img className="hamCoin" src={hamCoin} alt="" /></div>
                   <div>+5,000,000</div>
                   <div></div>
                 </div>
               </div>
 
               <div className="chosen-combo-cards gap-2 mt-3 mx-auto row">
-                <div className="chosen-card col-3"></div>
-                <div className="chosen-card col-3"></div>
-                <div className="chosen-card col-3"></div>
+                <div className="chosen-card col-3">
+                  <img className="unknown-card" src={unKnown} alt="..." />
+                </div>
+                <div className="chosen-card col-3">
+                <img className="unknown-card" src={unKnown} alt="..." />
+                </div>
+                <div className="chosen-card col-3">
+                <img className="unknown-card" src={unKnown} alt="..." />
+                </div>
               </div>
 
               <div className="balance">
@@ -2004,23 +2016,353 @@ const Mainpage = () => {
                   {cardsActiveSection === "prTeamPage" && (
                     <div>
                       <div className="mine-cards-section mt-4 row mx-auto">
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         <div className="mine-cards last-two col-5"></div>
                         <div className="last-two row mx-auto">
-                          <div className="mine-cards col-5"></div>
-                          <div className="mine-cards col-5"></div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         </div>
                         <div className="mining-tap">
                           <div className="tap-level">
@@ -2064,23 +2406,375 @@ const Mainpage = () => {
                   {cardsActiveSection === "marketPage" && (
                     <div>
                       <div className="mine-cards-section mt-4 row mx-auto">
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         <div className="last-two row mx-auto">
-                          <div className="mine-cards col-5"></div>
-                          <div className="mine-cards col-5"></div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         </div>
                         <div className="mining-tap">
                           <div className="tap-level">
@@ -2124,23 +2818,375 @@ const Mainpage = () => {
                   {cardsActiveSection === "legalPage" && (
                     <div>
                       <div className="mine-cards-section mt-4 row mx-auto">
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         <div className="last-two row mx-auto">
-                          <div className="mine-cards col-5"></div>
-                          <div className="mine-cards col-5"></div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         </div>
                         <div className="mining-tap">
                           <div className="tap-level">
@@ -2184,23 +3230,375 @@ const Mainpage = () => {
                   {cardsActiveSection === "web3Page" && (
                     <div>
                       <div className="mine-cards-section mt-4 row mx-auto">
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
-                        <div className="mine-cards col-5"></div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         <div className="last-two row mx-auto">
-                          <div className="mine-cards col-5"></div>
-                          <div className="mine-cards col-5"></div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                          <div className="mine-cards col-5">
+                          <div>
+                            <div className="d-flex justify-content-center align-items-center">
+                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div>
+                                <div className="card-title">Support team</div>
+                                <div className="card-pph">profit per hour</div>
+                                <div className="card-price">
+                                  <div><img className="pph-coin" src={hamCoin} alt="" /></div>
+                                  <div>3.4k</div>
+                                </div>
+                              </div>
+                              </div>
+                              <hr />
+                              <div className="lvl-balance">
+                                <div className="lvl">Lvl 18</div>
+                                <div className="d-flex justify-content-center align-items-center gap-1">
+                                  <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+                                  <div>10.11M</div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                         </div>
                         <div className="mining-tap">
                           <div className="tap-level">
