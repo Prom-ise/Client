@@ -3,6 +3,9 @@
   background-color: #242424;
   color: white;
 }
+.airpage{
+  overflow-x: hidden !important;
+}
 * {
   box-sizing: border-box;
   border: none;
@@ -1476,8 +1479,8 @@
 
 /* ---> Footer links style <--- */
 .footer-nav-links {
-  position: fixed;
-  margin: 0;
+  position: fixed !important;
+  margin: 0 !important;
   bottom: -3px;
   right: 0;
   left: 0;

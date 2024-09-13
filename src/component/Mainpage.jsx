@@ -2863,7 +2863,7 @@ const Mainpage = () => {
 
       {/* Airdrop Allocation Page */}
       {activeSection === "airDropPage" && (
-        <div className="py-5 mb-4 px-3">
+        <div className="airpage py-5 mb-4 px-3">
           <div className="d-flex justify-content-center align-items-center">
             <div className="listing-date-border1">
               <div>
