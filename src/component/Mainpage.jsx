@@ -1575,7 +1575,7 @@ const Mainpage = () => {
               <div>
                 <div>
                   <h3>Are you sure you want to delete your account?</h3>
-                  <p>All your data, including gaem progress, achievements, and purchases, will be permanently deleted. This action cannot be undone</p>
+                  <p>All your data, including game progress, achievements, and purchases, will be permanently deleted. This action cannot be undone</p>
                   <button className="del-acc">
                     <div>Delete account</div>
                   </button>
