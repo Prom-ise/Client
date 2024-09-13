@@ -938,7 +938,6 @@
   bottom: 0;
 } */
 .chosen-card {
-  /* position: relative; */
   flex: 1 0 90px !important;
   flex-wrap: wrap !important;
   height: 100px;

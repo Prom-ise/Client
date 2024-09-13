@@ -2027,7 +2027,7 @@ const Mainpage = () => {
                             <div className="d-flex justify-content-center align-items-center">
                               <div><img className="mine-card-pic" src={char9} alt="" /></div>
                               <div>
-                                <div className="card-title">Support team</div>
+                                <div className="card-title">CEO</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
@@ -2048,22 +2048,22 @@ const Mainpage = () => {
                         <div className="mine-cards col-5">
                           <div>
                             <div className="d-flex justify-content-center align-items-center">
-                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div><img className="mine-card-pic" src={char2} alt="" /></div>
                               <div>
-                                <div className="card-title">Support team</div>
+                                <div className="card-title">Marketing</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
-                                  <div>3.4k</div>
+                                  <div>1.95k</div>
                                 </div>
                               </div>
                               </div>
                               <hr />
                               <div className="lvl-balance">
-                                <div className="lvl">Lvl 18</div>
+                                <div className="lvl">Lvl 16</div>
                                 <div className="d-flex justify-content-center align-items-center gap-1">
                                   <div><img className="hamcoin" src={hamCoin} alt="" /></div>
-                                  <div>10.11M</div>
+                                  <div>1.66M</div>
                                 </div>
                               </div>
                           </div>
@@ -2071,22 +2071,22 @@ const Mainpage = () => {
                         <div className="mine-cards col-5">
                           <div>
                             <div className="d-flex justify-content-center align-items-center">
-                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div><img className="mine-card-pic" src={char5} alt="" /></div>
                               <div>
-                                <div className="card-title">Support team</div>
+                                <div className="card-title">IT team</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
-                                  <div>3.4k</div>
+                                  <div>7.4k</div>
                                 </div>
                               </div>
                               </div>
                               <hr />
                               <div className="lvl-balance">
-                                <div className="lvl">Lvl 18</div>
+                                <div className="lvl">Lvl 17</div>
                                 <div className="d-flex justify-content-center align-items-center gap-1">
                                   <div><img className="hamcoin" src={hamCoin} alt="" /></div>
-                                  <div>10.11M</div>
+                                  <div>8M</div>
                                 </div>
                               </div>
                           </div>
@@ -2094,22 +2094,22 @@ const Mainpage = () => {
                         <div className="mine-cards col-5">
                           <div>
                             <div className="d-flex justify-content-center align-items-center">
-                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div><img className="mine-card-pic" src={char3} alt="" /></div>
                               <div>
                                 <div className="card-title">Support team</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
-                                  <div>3.4k</div>
+                                  <div>1.76k</div>
                                 </div>
                               </div>
                               </div>
                               <hr />
                               <div className="lvl-balance">
-                                <div className="lvl">Lvl 18</div>
+                                <div className="lvl">Lvl 15</div>
                                 <div className="d-flex justify-content-center align-items-center gap-1">
                                   <div><img className="hamcoin" src={hamCoin} alt="" /></div>
-                                  <div>10.11M</div>
+                                  <div>544.02K</div>
                                 </div>
                               </div>
                           </div>
@@ -2117,22 +2117,22 @@ const Mainpage = () => {
                         <div className="mine-cards col-5">
                           <div>
                             <div className="d-flex justify-content-center align-items-center">
-                              <div><img className="mine-card-pic" src={char9} alt="" /></div>
+                              <div><img className="mine-card-pic" src={char1} alt="" /></div>
                               <div>
-                                <div className="card-title">Support team</div>
+                                <div className="card-title">HamsterBook</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
-                                  <div>3.4k</div>
+                                  <div>1.76k</div>
                                 </div>
                               </div>
                               </div>
                               <hr />
                               <div className="lvl-balance">
-                                <div className="lvl">Lvl 18</div>
+                                <div className="lvl">Lvl 15</div>
                                 <div className="d-flex justify-content-center align-items-center gap-1">
                                   <div><img className="hamcoin" src={hamCoin} alt="" /></div>
-                                  <div>10.11M</div>
+                                  <div>362.68K</div>
                                 </div>
                               </div>
                           </div>
