@@ -38,7 +38,7 @@ import x from "../assets/xLogo.webp";
 import telegram from "../assets/telegramLogo.png";
 import addFriends from "../assets/addFriends.webp";
 import earnTask from "../assets/earnTask.png";
-import toncoin from "../assets/Toncoin.webp"
+import toncoin from "../assets/ton.webp"
 import tap from "../assets/tap.png";
 import booster from "../assets/booster.png";
 import char1 from "../assets/hamChar3.png";
