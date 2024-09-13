@@ -1948,13 +1948,19 @@ const Mainpage = () => {
 
               <div className="chosen-combo-cards gap-2 mt-3 mx-auto row">
                 <div className="chosen-card col-3">
+                  <div>
                   <img className="unknown-card" src={unKnown} alt="..." />
+                  </div>
                 </div>
                 <div className="chosen-card col-3">
-                <img className="unknown-card" src={unKnown} alt="..." />
+                <div>
+                  <img className="unknown-card" src={unKnown} alt="..." />
+                  </div>
                 </div>
                 <div className="chosen-card col-3">
-                <img className="unknown-card" src={unKnown} alt="..." />
+                <div>
+                  <img className="unknown-card" src={unKnown} alt="..." />
+                  </div>
                 </div>
               </div>
 

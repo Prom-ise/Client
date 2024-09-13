@@ -921,14 +921,9 @@
   position: relative;
 }
 .unknown-card{
-  position: absolute;
   width: 12vh;
   height: 75px;
   border-radius: 20px;
-  top: 9px;
-  left: 7px;
-  right: 7px;
-  bottom: 9px;
 }
 /* .dot-win div::after{
   position: absolute;
@@ -943,7 +938,7 @@
   bottom: 0;
 } */
 .chosen-card {
-  position: relative;
+  /* position: relative; */
   flex: 1 0 90px !important;
   flex-wrap: wrap !important;
   height: 100px;
@@ -957,8 +952,7 @@
   background-color: rgb(46, 45, 45);
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  place-content: center;
   padding: 3em;
 }
 .combo-card-positon {
