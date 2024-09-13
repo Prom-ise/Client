@@ -927,6 +927,8 @@
   border-radius: 20px;
   top: 9px;
   left: 7px;
+  right: 7px;
+  bottom: 9px;
 }
 /* .dot-win div::after{
   position: absolute;
