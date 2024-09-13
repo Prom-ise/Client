@@ -1061,6 +1061,8 @@
   align-items: center;
   margin-top: -10px;
   gap: 10px;
+  font-size: 10.5px;
+  font-weight: 600;
 }
 .lvl{
   border-right: 1px solid gray;
