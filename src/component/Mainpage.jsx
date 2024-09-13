@@ -1774,7 +1774,7 @@ const Mainpage = () => {
         <div>
           <div className="gap-2 level-info">
             <div
-              onClick={() => handleMainSectionClick("leaguePage")}
+              onClick={() => handleLeagueSectionClick("leaguePage")}
               className={`cursor-pointer league ${
                 activeSection === "leaguePage" ? "league" : ""
               }`}
