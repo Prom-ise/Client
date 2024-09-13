@@ -38,7 +38,7 @@ import x from "../assets/xLogo.webp";
 import telegram from "../assets/telegramLogo.png";
 import addFriends from "../assets/addFriends.webp";
 import earnTask from "../assets/earnTask.png";
-
+import toncoin from "../assets/Toncoin.webp"
 import tap from "../assets/tap.png";
 import booster from "../assets/booster.png";
 import char1 from "../assets/hamChar3.png";
@@ -3004,7 +3004,7 @@ const Mainpage = () => {
               <div className="ton-wallet col-12">
                 <div className="d-flex align-items-center gap-2">
                   <div>
-                    {/* <img className="tonCoined" src={tonCoin} alt="Ton wallet" /> */}
+                    <img className="tonCoined" src={toncoin} alt="Ton wallet" />
                   </div>
                   <div>Connect your TON wallet</div>
                 </div>
