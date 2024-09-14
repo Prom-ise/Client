@@ -129,8 +129,14 @@ const Mainpage = () => {
       {activeSection === "mainPage" && (
         <div>
           <div className="flex">
-            <div className="profile-container"></div>
-            <div className="greet">Welcome to my Hamster Replication</div>
+            <div className="profile-container">
+              <div>
+                <img className="profile-pic" src={telegram} alt="" />
+              </div>
+            </div>
+            <div className="greet">
+              <div><img className="hamcoin" src={hamCoin} alt="" /></div>
+              <div>Afriverse coin</div></div>
           </div>
 
           <div className="gap-2 level-info">
@@ -1499,7 +1505,7 @@ const Mainpage = () => {
                 <div>Binance</div>
               </div>
               <div className="wallet-picked-icon">
-                <FaCheck />
+                <RiArrowRightSLine />
               </div>
             </div>
             <div className="wallet-cards col-12">
@@ -1510,7 +1516,7 @@ const Mainpage = () => {
                 <div>OKX</div>
               </div>
               <div className="wallet-picked-icon">
-                <FaCheck />
+                <RiArrowRightSLine />
               </div>
             </div>
             <div className="wallet-cards col-12">
@@ -1521,10 +1527,10 @@ const Mainpage = () => {
                 <div>Bybit</div>
               </div>
               <div className="wallet-picked-icon">
-                <FaCheck />
+                <RiArrowRightSLine />
               </div>
             </div>
-            <div className="wallet-cards col-12">
+            <div className="wallet-card-picked col-12">
               <div className="d-flex align-items-center gap-2">
                 <div>
                   <img src={bingx} className="wallet-logo" alt="" />
@@ -1543,7 +1549,7 @@ const Mainpage = () => {
                 <div>Kucoin</div>
               </div>
               <div className="wallet-picked-icon">
-                <FaCheck />
+                <RiArrowRightSLine />
               </div>
             </div>
             <div className="wallet-cards col-12">
@@ -1554,7 +1560,7 @@ const Mainpage = () => {
                 <div>Bitget</div>
               </div>
               <div className="wallet-picked-icon">
-                <FaCheck />
+                <RiArrowRightSLine />
               </div>
             </div>
           </div>
@@ -2119,7 +2125,7 @@ const Mainpage = () => {
                             <div className="d-flex justify-content-center align-items-center">
                               <div><img className="mine-card-pic" src={char1} alt="" /></div>
                               <div>
-                                <div className="card-title">HamsterBook</div>
+                                <div className="card-title">AfriverseBook</div>
                                 <div className="card-pph">profit per hour</div>
                                 <div className="card-price">
                                   <div><img className="pph-coin" src={hamCoin} alt="" /></div>
@@ -4057,7 +4063,7 @@ const Mainpage = () => {
           </div>
           <div className="earn-text">Earn more coins</div>
           <div className="mb-4">
-            <h5 className="mb-3 fw-bold">Hamster Youtube</h5>
+            <h5 className="mb-3 fw-bold">Afriverse Youtube</h5>
             <div className="row mx-auto">
               <div className="col-12 py-1 youtube-task d-flex justify-content-between align-items-center">
                 <div className="d-flex gap-2 justify-content-center align-items-center">

@@ -38,8 +38,23 @@
   box-sizing: border-box;
   width: 40px;
   height: 40px;
-  background-color: gainsboro;
+  background-color: #f5e945;
   border-radius: 50%;
+  display: flex;
+  place-items: center;
+}
+.profile-pic{
+  width: 40px;
+  height: 40px;
+}
+.greet{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* color: palevioletred; */
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .level-info {
   display: flex;
@@ -1160,7 +1175,7 @@
   font-weight: 700;
   margin-bottom: 16px;
 }
-.wallet-cards {
+.wallet-cards, .wallet-card-picked {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1171,8 +1186,8 @@
   font-weight: 600;
   height: 65px;
 }
-.wallet-cards:hover {
-  border: 0.5px solid gray;
+.wallet-cards:hover, .wallet-card-picked {
+  border: 2px solid gray;
 }
 .wallet-logo {
   width: 40px;
